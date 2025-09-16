@@ -1,0 +1,74 @@
+🔹 Bagian Atas (Header Menu)
+
+Search Bar
+
+Input pencarian pasien berdasarkan:
+
+Nama Pasien
+
+No MR (Medical Record)
+
+No KTP
+
+No Asuransi
+
+Fungsi: mempermudah staff mencari data pasien yang sudah ada.
+
+Tombol "Pendaftaran Baru" (warna oranye dropdown)
+
+Untuk menambahkan pasien baru ke sistem rawat jalan.
+
+Biasanya dropdown ini punya opsi:
+
+Pendaftaran pasien umum
+
+Pendaftaran pasien BPJS/asuransi
+
+Pendaftaran pasien lama dengan nomor rekam medis.
+
+Status Kunjungan (Legend)
+
+Indikator warna status pasien rawat jalan:
+
+🟥 Pending – belum dikonfirmasi.
+
+🟧 Confirmed – sudah didaftarkan.
+
+🟪 Waiting – pasien menunggu giliran.
+
+🟦 Engaged – sedang dilayani dokter.
+
+🟩 Succeed – selesai mendapatkan pelayanan.
+
+🔹 Bagian Konten Utama
+
+Ilustrasi Ikon User + tanda plus → tanda bahwa belum ada data tenaga medis / dokter yang tersedia untuk melayani rawat jalan.
+
+Pesan Informasi:
+
+“Data praktek Dokter belum lengkap. Silahkan lengkapi data tenaga medis terlebih dahulu.”
+→ Artinya sistem tidak bisa melanjutkan layanan rawat jalan jika belum ada dokter/tenaga medis yang terdaftar.
+
+Tombol "+ Tambah Data Tenaga Medis"
+
+Shortcut untuk menambahkan data dokter atau tenaga medis agar sistem rawat jalan bisa dipakai.
+
+🔹 Bagian Atas Kanan
+
+Identitas Klinik (Royal Klinik Tj. Priok).
+
+Tanggal Hari Ini (Selasa, 16 September 2025).
+
+Tombol "Hari Ini" → kemungkinan shortcut untuk menampilkan jadwal pasien hari ini.
+
+📌 Inti Fungsi Halaman Rawat Jalan
+
+Halaman ini adalah manajemen pendaftaran pasien rawat jalan, tapi saat ini kosong karena data tenaga medis (dokter) belum dimasukkan.
+
+Urutan alurnya biasanya seperti ini:
+
+Tambah data tenaga medis (dokter/perawat).
+
+Setelah ada tenaga medis, bisa mendaftarkan pasien baru atau cari pasien lama.
+
+Sistem akan menampilkan daftar antrian pasien rawat jalan dengan status (Pending → Confirmed → Waiting → Engaged → Succeed).
