@@ -1,0 +1,87 @@
+🏥 Halaman Registration – Rawat Jalan Poli
+
+Halaman ini adalah pusat pendaftaran pasien di klinik/hospital untuk berbagai layanan. Dari tampilan yang ada, sistem ini digunakan untuk:
+
+Mencatat kunjungan pasien baru maupun lama.
+
+Mengelola antrian dan jadwal pasien.
+
+Mempermudah tenaga medis melihat siapa yang akan berobat.
+
+📌 Struktur Halaman
+
+Header Atas
+
+🔍 Search bar: untuk mencari pasien berdasarkan Nama, No MR (Medical Record), No KTP, atau No Asuransi.
+
+🟧 Tombol "Pendaftaran Baru": menambahkan kunjungan baru (pasien baru atau pasien lama dengan kunjungan baru).
+
+🔔 Ikon notifikasi & profil user (akun klinik).
+
+Sidebar (Menu Navigasi)
+
+Rawat Jalan Poli → untuk pendaftaran pasien rawat jalan.
+
+AntriCepat → pendaftaran cepat, biasanya tanpa input detail banyak.
+
+Gawat Darurat → pendaftaran pasien IGD.
+
+Kunjungan Sehat → untuk medical check-up / kontrol rutin.
+
+Promotif Preventif → layanan promosi kesehatan (penyuluhan, vaksinasi, dsb).
+
+Kegiatan Kelompok → pendaftaran untuk kegiatan massal (penyuluhan, senam, dll).
+
+Antrian Awal → daftar nomor antrian yang sudah di-generate.
+
+Screen Antrian → menampilkan antrian pasien di layar TV/monitor.
+
+Konten Utama (Rawat Jalan Poli)
+
+Filter Kunjungan
+
+📅 Tanggal Kunjungan → memilih tanggal pasien berobat.
+
+👨‍⚕️ Tenaga Medis → filter berdasarkan dokter/tenaga medis.
+
+💳 Metode Pembayaran → filter berdasarkan asuransi, BPJS, atau tunai.
+
+🏥 Poli → filter berdasarkan poli (umum, gigi, anak, dll).
+
+🔍 Search Pasien → mencari pasien dengan nama/nomor rekam medis.
+
+Tabel Kunjungan
+
+Kolom:
+
+Status (sudah diperiksa / menunggu)
+
+Tanggal Kunjungan
+
+Tanggal Dibuat (pendaftaran)
+
+Nomor Kunjungan
+
+Poli
+
+Nama Pasien
+
+Rencana Tindakan
+
+Rencana Paket
+
+Tenaga Medis
+
+Bisa di-export (Excel/PDF) atau di-print.
+
+🎯 Fungsi Utama Halaman
+
+Mengelola data pendaftaran pasien rawat jalan.
+
+Menyediakan filter & pencarian agar admin lebih cepat menemukan data pasien.
+
+Mencetak atau mengekspor data kunjungan pasien untuk laporan.
+
+Mengintegrasikan pasien dengan tenaga medis & metode pembayaran.
+
+👉 Jadi singkatnya, halaman ini adalah dashboard pendaftaran pasien yang memudahkan klinik mengatur pasien, dari proses datang hingga siap diperiksa di poli/dokter.
