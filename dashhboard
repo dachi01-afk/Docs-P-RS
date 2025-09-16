@@ -1,0 +1,82 @@
+🔹 Bagian Atas
+
+Judul Dashboard → “Dashboard – Royal Klinik Tj. Priok” → menunjukkan nama fasilitas kesehatan.
+
+Filter:
+
+Jenis Kunjungan: (contoh: Kunjungan Sakit).
+
+Poli/Unit: (contoh: Umum).
+
+Periode: (contoh: Bulan).
+→ Fungsinya untuk memfilter grafik/statistik berdasarkan jenis layanan, poli, dan periode waktu.
+
+Grafik Kunjungan
+Menampilkan jumlah kunjungan pasien sepanjang tahun (per bulan). Grafik ini akan naik/turun sesuai filter di atas.
+
+🔹 Statistik Utama (Card di sisi kanan)
+
+Rata-rata Waktu Konsultasi
+→ Menampilkan berapa lama rata-rata konsultasi pasien berlangsung (dalam menit/detik).
+→ Berguna untuk mengukur efisiensi pelayanan dokter.
+
+Pasien Baru
+→ Jumlah pasien baru yang mendaftar dalam periode tertentu.
+→ Ada indikator perbandingan dengan periode sebelumnya (contoh: “+0% dari bulan September”).
+
+Pasien Terdaftar
+→ Total pasien yang sudah terdaftar di sistem.
+→ Biasanya dihitung secara kumulatif, bukan hanya pasien baru.
+
+Rata-rata Waktu Tunggu Dokter
+→ Waktu rata-rata pasien menunggu sebelum dilayani dokter.
+→ Indikator kualitas layanan (semakin kecil semakin baik).
+
+Obat Habis
+→ Jumlah item obat yang stoknya habis di apotek klinik.
+→ Penting untuk stok manajemen farmasi.
+
+Rata-rata Waktu Tunggu Apotek
+→ Rata-rata waktu pasien menunggu resep obat dilayani apotek.
+
+🔹 Bagian Bawah (Statistik Tambahan)
+
+Total Pasien Klinik
+
+Total pasien aktif yang tercatat di sistem.
+
+Dibagi kategori:
+
+Rawat Jalan
+
+Rawat Inap
+
+Kunjungan Sehat (check up umum)
+
+Apotek
+
+Ada label “Tidak Terhubung BPJS” → artinya integrasi ke BPJS belum aktif.
+
+Pendapatan Bulan Ini
+→ Total pemasukan klinik (dari pendaftaran pasien, layanan, obat).
+
+Pengeluaran Bulan Ini
+→ Total biaya yang dikeluarkan (misalnya gaji, operasional, pembelian obat).
+
+Pasien AntriCepat
+→ Menampilkan daftar pasien yang sedang antri cepat (sistem antrian online).
+→ Biasanya ada kolom: Nama, Tenaga Medis (dokter/perawat), Jadwal, Status.
+
+📌 Ringkasan
+
+Dashboard ini menampilkan statistik real-time klinik yang meliputi:
+
+Kunjungan pasien (grafik + total pasien).
+
+Efisiensi layanan (waktu tunggu konsultasi, dokter, apotek).
+
+Pasien (baru, terdaftar, antrian).
+
+Keuangan (pendapatan, pengeluaran).
+
+Farmasi (stok obat habis).
